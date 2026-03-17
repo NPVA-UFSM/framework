@@ -1,0 +1,61 @@
+# ROS2 workspace build artifacts
+build/
+install/
+log/
+
+# colcon
+.colcon/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+*.so
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# C/C++ artifacts
+*.o
+*.a
+*.lib
+*.dll
+*.dylib
+*.out
+*.app
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+CTestTestfile.cmake
+_deps/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Docker
+.dockerenv
+
+# ROS2 specific
+*.bag
+*.bag.active
+.ros/
+
+# Coverage / testing
+.coverage
+htmlcov/
+.pytest_cache/
